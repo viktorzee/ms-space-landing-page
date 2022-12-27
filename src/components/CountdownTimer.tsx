@@ -43,9 +43,9 @@ const CountdownTimer: React.FC = () => {
   });
 
   return (
-    <div className="flex justify-between mt-8">
+    <div className="flex justify-between mt-8 p-4">
       <div className="text-center bg-gray-600 rounded-full p-4">
-        <span className="text-5xl text-white font-bold block">
+        <span className="text-5xl text-white font-bold block p-2 md:p-1">
           {timerComponents.length ? (
             timerComponents
           ) : (

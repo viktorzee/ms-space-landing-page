@@ -19,10 +19,10 @@ const LandingPage: React.FC = () => {
         <div className="mx-auto my-8">
           <img src={bg} alt="Logo" className="h-32" />
         </div>
-        <h1 className="text-4xl font-bold text-gray-800 mb-4">
+        <h1 className="text-4xl font-bold text-gray-800 text-center mb-4">
           Management System Space (MS-SPACE)
         </h1>
-        <p className="text-white text-xl mb-8">
+        <p className="text-white text-xl text-center mb-8">
           We're working hard to bring you the best Management System in Africa.
         </p>
         <form className="w-full max-w-sm">

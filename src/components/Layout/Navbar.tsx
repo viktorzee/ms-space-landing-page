@@ -28,7 +28,7 @@ const NavBar: React.FC = () => {
             to="/"
             className="text-[#f5b921] items-center ml-5 cursor-pointer decoration-none text-4xl grow"
           >
-            MS-SWAP
+            MS-SPACE
             <i className="fa fa-code"></i>
           </NavLink>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
